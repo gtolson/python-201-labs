@@ -16,3 +16,14 @@ famous_quotes = [
     {"full_name": "Nathan Myhrvold", "quote": "Software is a gas; it expands to fill its container."},
     {"full_name": "Alan Bennett", "quote": "Standards are always out of date.  That’s what makes them standards."}
 ]
+
+
+for dict1 in famous_quotes:
+    fn = dict1['full_name']
+    fnl = fn.split()
+    quo = dict1["quote"]
+
+    if len(fnl) == 3:
+        print(f"\"{quo}\" - {fnl[2]}, {fnl[0]}\n")
+    else:
+        print(f"\"{quo}\" - {fnl[1]}, {fnl[0]}\n")

@@ -15,5 +15,29 @@
 from resources import randlist
 
 print(randlist)
-
 # Write your code below here
+
+
+# Sort and make sure even number of items.
+randlist.sort()
+if len(randlist) % 2 != 0:
+    randlist.append(int(0))
+
+# Set vars
+randlist_len = len(randlist)
+start_index = 0
+end_index = 2
+tup_list = []
+
+# Create the list of tuples
+while end_index <= randlist_len:
+    tup_list.append(tuple(randlist[start_index:end_index]))
+    start_index += 2
+    end_index += 2
+
+# Print each tuple
+for tup in tup_list:
+    print(tup)
+
+
+

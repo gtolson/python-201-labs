@@ -7,4 +7,23 @@
 
 from resources import randlist
 
-print(randlist)
+num_done = ''
+userlist = []
+
+print(f"The largest number is: {max(randlist)}")
+print(f"The sum of all the numbers is: {sum(randlist)}")
+
+#while num_done != 'e':
+#    user_entry = (input("Please enter a number: "))
+#    if user_entry.isalpha() or user_entry == '':
+#        print("Please only enter numbers... ")
+#        continue
+#    user_entry = int(user_entry)
+#    userlist.append(user_entry)
+#    num_complete = input("Press any key to enter another number or press E to exit: ")
+#    num_done = num_complete.lower()
+#
+#
+#print(f"The largest number is: {max(userlist)}")
+#print(f"The sum of all the numbers is: {sum(userlist)}")
+    

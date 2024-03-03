@@ -6,3 +6,7 @@
 # but try to do it using a list comprehension.
 
 word = "codingnomads"
+wordlist = []
+[wordlist.append(x) for x in word]
+
+print(wordlist)

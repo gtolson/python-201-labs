@@ -4,3 +4,9 @@
 # Do you notice any difference to iterating over the string?
 
 string = "codingnomads"
+for s in string:
+    print(s)
+print("===========")
+string = tuple(string)
+for s in string:
+    print(s)

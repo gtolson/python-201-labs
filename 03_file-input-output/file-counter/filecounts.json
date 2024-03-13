@@ -1,1 +1,40 @@
-{"": 8, ".csv": 2, ".md": 2, ".png": 11}
+{
+    "counts": [
+        {
+            "directory": 3,
+            ".csv": 1,
+            ".yml": 1,
+            ".png": 12,
+            ".py": 6,
+            ".txt": 1,
+            ".md": 1
+        },
+        {
+            "directory": 3,
+            ".csv": 1,
+            ".yml": 1,
+            ".png": 12,
+            ".py": 6,
+            ".txt": 1,
+            ".md": 1
+        },
+        {
+            "directory": 3,
+            ".csv": 1,
+            ".yml": 1,
+            ".png": 12,
+            ".py": 6,
+            ".txt": 1,
+            ".md": 1
+        },
+        {
+            "directory": 3,
+            ".csv": 1,
+            ".yml": 1,
+            ".png": 12,
+            ".py": 6,
+            ".txt": 1,
+            ".md": 1
+        }
+    ]
+}

@@ -2,3 +2,6 @@
 # in your CSV file. Remember that the format of your output needs to be
 # consistent across multiple runs of your script. This means you'll need to
 # make a compromise and choose which file types you want to record beforehand.
+
+
+## Added file types to script.. also play around with dynamicly adding file types... that needs work. 

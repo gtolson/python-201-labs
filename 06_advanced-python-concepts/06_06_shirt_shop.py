@@ -3,3 +3,8 @@
 
 colors = ["neon orange", "spring green"]
 sizes = ["S", "M", "L"]
+
+apparel = [(x , y) for x in colors for y in sizes]
+print(apparel)
+
+
